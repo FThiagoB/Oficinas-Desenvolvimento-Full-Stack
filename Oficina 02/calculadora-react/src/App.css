@@ -1,0 +1,50 @@
+body{
+  background-color: rgba(250, 235, 215, 0.329);
+}
+
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora{
+  font-family: cursive;
+  font-size: 1.1rem;
+  font-weight: bold;  
+  width: 50vw;
+  min-width: 210px;
+  max-width: 450px;
+}
+
+.calculadora .btn{
+  color: black;
+}
+
+.display:disabled{
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.label{
+  min-height: 2.2rem;
+  color: rgb(95, 94, 94);
+  font-size: 1rem;
+  font-family: consolas;
+}
+
+.button-dark:hover, .button-light:hover,
+.button-dark:active, .button-light:active{
+  background-color: rgb(215, 233, 248);
+}
+
+.button-dark{
+  background-color: rgb(229, 227, 227);
+}
+
+.btn:focus {
+  outline: none !important;  /* Remove o outline padrão */
+  box-shadow: 0 0 0 2px rgba(67, 80, 99, 0.5) !important;
+  /* Deslocamento-x | deslocamento-y | blur | spread | cor */
+}
